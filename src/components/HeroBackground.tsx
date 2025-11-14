@@ -1,30 +1,23 @@
-// src/components/InteractiveBackground.tsx
 import React, { useRef } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { Sphere, OrbitControls, Stars } from "@react-three/drei";
 import { Mesh } from "three";
 
 const CameraMovement = () => {
-  // O hook useThree nos dá acesso à câmera, cena, renderer, etc.
   const { camera } = useThree();
 
-  // useFrame é chamado em cada frame de renderização
   useFrame(({ clock }) => {
-    const t = clock.getElapsedTime() * 0.05; // 0.05 controla a velocidade do movimento
+    const t = clock.getElapsedTime() * 0.05;
 
-    // Calcula a nova posição da câmera em um círculo no plano XZ
-    // Isso simula uma órbita lenta ao redor do centro [0, 0, 0]
     camera.position.x = 15 * Math.sin(t);
     camera.position.z = 15 * Math.cos(t);
 
-    // Mantém a câmera sempre olhando para o centro da cena
     camera.lookAt(0, 0, 0);
   });
 
-  return null; // Este componente não renderiza nada 3D diretamente
+  return null;
 };
 
-// Componente para a esfera interativa no fundo
 const MovingSphere = () => {
   const meshRef = useRef<Mesh | null>(null);
   useFrame(() => {

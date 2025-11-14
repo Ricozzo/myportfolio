@@ -11,13 +11,10 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen w-full flex items-center justify-center">
       <HeroBackground />
-      {/* Seu conteúdo continua por cima do canvas 3D */}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-70 z-0" />
-      {/* Um gradiente sutil para escurecer o fundo 3D e fazer o texto se destacar */}
 
       <div className="container mx-auto px-4 z-20 text-center animate-fade-in">
         {" "}
-        {/* Aumentado z-index para garantir que o conteúdo esteja na frente */}
         <div className="space-y-6">
           <h1 className="text-6xl md:text-8xl text-foreground/80 font-light animate-fade-up">
             Henrique Ortiz
@@ -40,13 +37,13 @@ const Hero = () => {
             style={{ animationDelay: "0.6s" }}
           >
             <Button
-              onClick={() => scrollToSection("projetos")}
+              onClick={() => scrollToSection("projects")}
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105 hover:shadow-primary-primary-glow"
             >
               Projects
             </Button>
             <Button
-              onClick={() => scrollToSection("contato")}
+              onClick={() => scrollToSection("contact")}
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105"
             >

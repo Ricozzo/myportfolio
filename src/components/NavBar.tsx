@@ -3,8 +3,6 @@ import { Github, Linkedin, Mail, FileDown } from "lucide-react";
 
 const Navbar = () => {
   return (
-    //<section className="relative min-h-screen w-full flex items-center justify-center">
-    // <HeroBackground />
     <nav className="bg-card py-8 px-4 border-t border-border">
       <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex gap-6">
@@ -57,7 +55,6 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    // </section>
   );
 };
 
