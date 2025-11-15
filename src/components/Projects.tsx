@@ -37,12 +37,11 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projetos" className="py-20 px-4 bg-background">
-      <div className="container mx-auto max-w-6xl">
+    <section id="projects" className="py-20 px-4 bg-background overflow-hidden">
+      <div className="container mx-auto max-w-6xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 bg-clip-text text-foreground animate-fade-up">
           Projects
         </h2>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div

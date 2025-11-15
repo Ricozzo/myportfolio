@@ -43,7 +43,7 @@ const Navbar = () => {
             </p>
           </a>
           <a
-            href=""
+            href="https://drive.google.com/drive/folders/1vGOpSddEKJnWRwSdBV0vmPh56UJSlJ1e?hl=pt-brr"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"

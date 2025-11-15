@@ -56,8 +56,8 @@ const Hero = () => {
       </div>
 
       <button
-        onClick={() => scrollToSection("sobre")}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer bg-transparent border-none z-20" // Aumentado z-index
+        onClick={() => scrollToSection("about")}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer bg-transparent border-none z-20"
         aria-label="Scroll para próxima seção"
       >
         <ArrowDown className="w-8 h-8 text-primary" />

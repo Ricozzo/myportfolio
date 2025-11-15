@@ -29,7 +29,6 @@ const MovingSphere = () => {
 
   return (
     <Sphere args={[5, 64, 64]} ref={meshRef} position={[0, 0, 0]}>
-      {" "}
       <meshStandardMaterial
         color="#300060"
         emissive="#5000A0"
