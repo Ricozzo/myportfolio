@@ -1,10 +1,12 @@
 import React from "react";
 import { Github, Linkedin, Mail, FileDown } from "lucide-react";
+import HeroBackground from "../components/HeroBackground";
 
 const Navbar = () => {
   return (
-    <nav className="bg-card py-8 px-4 border-t border-border">
-      <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-center gap-6">
+    <nav className="py-8 px-4 border-t border-border">
+      <HeroBackground />
+      <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-center gap-6 relative z-10">
         <div className="flex gap-6">
           <a
             href="https://github.com/seu-usuario"
@@ -25,7 +27,7 @@ const Navbar = () => {
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
             aria-label="LinkedIn"
           >
-             <Linkedin className="w-7 h-7" />
+            <Linkedin className="w-7 h-7" />
             <p className="ml-2 hidden group-hover:block transition-all duration-300 whitespace-nowrap">
               Linkedin
             </p>
