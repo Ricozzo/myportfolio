@@ -1,13 +1,9 @@
-// Importa o plugin de animação
-const animate = require('tailwindcss-animate');
+const animate = require("tailwindcss-animate");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: [
-    "./index.html", // <-- Para o Vite
-    "./src/**/*.{js,ts,jsx,tsx}", // <-- Para seus arquivos React
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     container: {
       center: true,
@@ -66,12 +62,22 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fade-in-scale": {
+          from: { opacity: "0", transform: "scale(0.8)" },
+          to: { opacity: "1", transform: "scale(1)" },
+        },
+        "fade-up-scale": {
+          from: { opacity: "0", transform: "translateY(20px) scale(0.8)" },
+          to: { opacity: "1", transform: "translateY(0) scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in-scale": "fade-in-scale 0.8s ease-out forwards",
+        "fade-up-scale": "fade-up-scale 0.8s ease-out forwards",
       },
     },
   },
-  plugins: [animate], // <-- Usa o plugin
-}
+  plugins: [animate],
+};

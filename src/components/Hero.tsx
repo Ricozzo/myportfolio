@@ -12,21 +12,19 @@ const Hero = () => {
     <section className="relative min-h-screen w-full flex items-center justify-center">
       <HeroBackground />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-70 z-0" />
-
-      <div className="container mx-auto px-4 z-20 text-center animate-fade-in">
-        {" "}
+      <div className="container mx-auto px-4 z-20 text-center animate-fade-in-scale">
         <div className="space-y-6">
-          <h1 className="text-6xl md:text-8xl text-foreground/80 font-light animate-fade-up">
+          <h1 className="text-6xl md:text-8xl text-foreground/80 font-serif animate-fade-in-scale">
             Henrique Ortiz
           </h1>
           <p
-            className="text-2xl md:text-4xl text-foreground/80 font-light animate-fade-up"
+            className="text-2xl md:text-4xl text-foreground/80 font-serif animate-fade-in-scale"
             style={{ animationDelay: "0.2s" }}
           >
-            Full stack Web Developer
+            YOUR Full stack Web Developer
           </p>
           <p
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up"
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-scale"
             style={{ animationDelay: "0.4s" }}
           >
             Turning ideas into digital experiences
@@ -42,13 +40,17 @@ const Hero = () => {
             >
               Projects
             </Button>
-            <Button
-              onClick={() => scrollToSection("contact")}
-              variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105"
+            <a
+              href="mailto:henriqueortizpereira@gmail.com"
+              className="inline-block"
             >
-              Get In Touch
-            </Button>
+              <Button
+                variant="outline"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105"
+              >
+                Get In Touch
+              </Button>
+            </a>
           </div>
         </div>
       </div>
