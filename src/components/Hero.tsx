@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center">
+    <section id="hero" className="relative min-h-screen w-full flex items-center justify-center">
       <HeroBackground />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-70 z-0" />
       <div className="container mx-auto px-4 z-20 text-center animate-fade-in-scale">
