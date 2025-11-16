@@ -23,7 +23,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl relative">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-clip-text text-foreground animate-fade-up">
+        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16 bg-clip-text text-foreground animate-fade-up">
           Who am I?
         </h2>
         <div
