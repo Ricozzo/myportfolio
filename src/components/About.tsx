@@ -18,7 +18,7 @@ const About = () => {
     },
   ];
 
-  const imageSize = "w-64 h-64";
+  const imageSize = "w-60 h-60";
 
   return (
     <section id="about" className="py-20 px-4 bg-background">
@@ -29,7 +29,7 @@ const About = () => {
         <div
           className="absolute hidden md:block z-10"
           style={{
-            top: "100px",
+            top: "350px",
             right: "0",
           }}
         >
@@ -43,21 +43,25 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="grid md:grid-cols-2 gap-12 items-start pt-24 md:pt-0">
-          <div className="space-y-6 animate-fade-up">
+        <div className="grid md:grid-cols-1 gap-12 items-start pt-24 md:pt-0">
+          <div className="space-y-5 animate-fade-up">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              I'm Henrique, a Web Developer who finds satisfaction in the
-              challenge of bringing innovative ideas to life. I specialize in
-              creating unique and functional digital spaces. Whether it's the
-              front-end presentation or the back-end architecture, my work is
-              centered on transforming concepts into successful, deliverable
-              code.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              My focus is squarely on developing modern, responsive, and
-              high-performance web applications. I always prioritize adopting
-              best practices and the latest market technologies to ensure the
-              final product is both current and exceptionally fast.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
           <div

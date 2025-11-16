@@ -30,9 +30,9 @@ const Projects = () => {
       demo: "#",
     },
     {
-      title: "Social App",
+      title: "Your App",
       description:
-        "Aplicação social com feed de posts, stories e sistema de mensagens em tempo real",
+        "Just a test",
       image: project3,
       tags: ["React", "Node.js", "Socket.io"],
       github: "#",
