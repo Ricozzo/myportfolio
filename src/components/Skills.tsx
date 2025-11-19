@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <section className="py-20 px-4 bg-muted/20">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-bold hover:border-primary/50 text-center mb-12 bg-clip-text text-primary-foreground animate-fade-up">
+        <h2 className="text-4xl md:text-5xl font-bold hover:border-primary/50 text-center mb-12 bg-clip-text text-primary-foreground animate-fade-up text-3d-effect">
           Skills & Tools
         </h2>
         

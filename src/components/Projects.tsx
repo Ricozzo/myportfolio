@@ -47,7 +47,7 @@ const Projects = () => {
         className="py-20 px-4 bg-background overflow-hidden"
       >
         <div className="container mx-auto max-w-6xl relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 bg-clip-text text-foreground animate-fade-up">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 bg-clip-text text-foreground animate-fade-up text-3d-effect">
             Projects
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
