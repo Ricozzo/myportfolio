@@ -18,7 +18,7 @@ const Hero = () => {
             Henrique Ortiz
           </h1>
           <p
-            className="text-2xl md:text-4xl text-foreground/80 font-serif animate-fade-in-scale text-3d-effect"
+            className="text-2xl md:text-4xl text-foreground/80 sans-serif animate-fade-in-scale text-3d-effect"
             style={{ animationDelay: "0.2s" }}
           >
             YOUR Full stack Web Developer
@@ -36,7 +36,7 @@ const Hero = () => {
           >
             <Button
               onClick={() => scrollToSection("projects")}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105 hover:shadow-primary-primary-glow"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105 hover:shadow-primary-primary-glow shadow-md shadow-primary/50"
             >
               Projects
             </Button>
@@ -46,7 +46,7 @@ const Hero = () => {
             >
               <Button
                 variant="outline"
-                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105 shadow-lg shadow-white/20"
               >
                 Get In Touch
               </Button>

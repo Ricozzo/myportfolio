@@ -72,6 +72,16 @@ All colors MUST be HSL.
   }
 }
 
+@keyframes neon-pulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 12px rgba(168, 85, 247, 1));
+  }
+}
+
 .text-3d-effect {
   color: #d1d5db;
   text-align: center;
@@ -83,4 +93,5 @@ All colors MUST be HSL.
 
   filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.7));
   font-weight: 700;
+  animation: neon-pulse 2s infinite alternate;
 }

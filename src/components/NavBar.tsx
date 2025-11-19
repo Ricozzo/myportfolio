@@ -15,7 +15,7 @@ const Navbar = () => {
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
             aria-label="GitHub"
           >
-            <Github className="w-7 h-7" />
+            <Github className="w-9 h-9" />
             <p className="ml-2 hidden group-hover:block transition-all duration-300 whitespace-nowrap">
               GitHub
             </p>
@@ -27,7 +27,7 @@ const Navbar = () => {
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
             aria-label="LinkedIn"
           >
-            <Linkedin className="w-7 h-7" />
+            <Linkedin className="w-9 h-9" />
             <p className="ml-2 hidden group-hover:block transition-all duration-300 whitespace-nowrap">
               Linkedin
             </p>
@@ -37,7 +37,7 @@ const Navbar = () => {
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
             aria-label="Email"
           >
-            <Mail className="w-7 h-7" />
+            <Mail className="w-9 h-9" />
             <p className="ml-2 hidden group-hover:block transition-all duration-300 whitespace-nowrap">
               E-mail
             </p>
@@ -49,7 +49,7 @@ const Navbar = () => {
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
             aria-label="CV"
           >
-            <FileDown className="w-7 h7" />
+            <FileDown className="w-9 h-9" />
             <p className="ml-2 hidden group-hover:block transition-all duration-300 whitespace-nowrap">
               My CV
             </p>
