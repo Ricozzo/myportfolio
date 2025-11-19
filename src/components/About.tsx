@@ -29,8 +29,8 @@ const About = () => {
         <div
           className="absolute hidden md:block z-10"
           style={{
-            top: "400px",
-            right: "0",
+            top: "-100px",
+            right: "-150px",
           }}
         >
           <div
