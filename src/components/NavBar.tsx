@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-center gap-6 relative z-10">
         <div className="flex gap-6">
           <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/Ricozzo"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"

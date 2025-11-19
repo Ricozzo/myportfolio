@@ -14,11 +14,11 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-70 z-0" />
       <div className="container mx-auto px-4 z-20 text-center animate-fade-in-scale">
         <div className="space-y-6">
-          <h1 className="text-6xl md:text-8xl text-foreground/80 font-serif animate-fade-in-scale">
+          <h1 className="text-6xl md:text-8xl text-foreground/80 font-serif animate-fade-in-scale text-3d-effect">
             Henrique Ortiz
           </h1>
           <p
-            className="text-2xl md:text-4xl text-foreground/80 font-serif animate-fade-in-scale"
+            className="text-2xl md:text-4xl text-foreground/80 font-serif animate-fade-in-scale text-3d-effect"
             style={{ animationDelay: "0.2s" }}
           >
             YOUR Full stack Web Developer

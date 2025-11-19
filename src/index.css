@@ -38,13 +38,26 @@ All colors MUST be HSL.
 
     --radius: 1rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(280 100% 70%), hsl(320 100% 65%));
-    --gradient-secondary: linear-gradient(135deg, hsl(320 100% 65%), hsl(30 100% 60%));
-    --gradient-hero: linear-gradient(135deg, hsl(250 100% 4%), hsl(280 80% 15%), hsl(320 80% 20%));
-    
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(280 100% 70%),
+      hsl(320 100% 65%)
+    );
+    --gradient-secondary: linear-gradient(
+      135deg,
+      hsl(320 100% 65%),
+      hsl(30 100% 60%)
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(250 100% 4%),
+      hsl(280 80% 15%),
+      hsl(320 80% 20%)
+    );
+
     --shadow-glow: 0 0 40px hsl(280 100% 70% / 0.3);
     --shadow-card: 0 10px 40px hsl(280 100% 70% / 0.2);
-    
+
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -57,4 +70,17 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.text-3d-effect {
+  color: #d1d5db;
+  text-align: center;
+  text-shadow: 1px 1px 0 #9ca3af, 2px 2px 0 #888e9a, 3px 3px 0 #777d8a,
+    4px 4px 0 #666c77, 5px 5px 0 #555b66, 6px 6px 0 #444a55;
+
+  -webkit-text-stroke: 1.5px #a855f7;
+  text-stroke: 1.5px #a855f7;
+
+  filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.7));
+  font-weight: 700;
 }

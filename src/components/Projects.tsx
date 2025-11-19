@@ -17,7 +17,7 @@ const Projects = () => {
         "This is a front-end and desktop-only game created for Ironhack's Web Development Bootcamp module The game was created by a team of two using tools such as HTML, CSS, JavaScript, and Canvas with a focus on creating a game using our knowledge of these technologies.",
       image: project1,
       tags: ["JavaScript", "HTML", "CSS"],
-      github: "#",
+      github: "https://github.com/Ricozzo/Lisbon-escape",
       demo: "https://ricozzo.github.io/Lisbon-escape/",
     },
     {
@@ -30,9 +30,9 @@ const Projects = () => {
       demo: "#",
     },
     {
-      title: "Your App",
+      title: "Your Project",
       description:
-        "Just a test",
+        "Your project can be here",
       image: project3,
       tags: ["React", "Node.js", "Socket.io"],
       github: "#",

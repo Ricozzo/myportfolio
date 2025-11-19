@@ -11,7 +11,7 @@ const Footer = () => {
 
         <div className="flex gap-6">
           <a 
-            href="https://github.com/seu-usuario" 
+            href="https://github.com/Ricozzo" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"

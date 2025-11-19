@@ -46,22 +46,27 @@ const About = () => {
         <div className="grid md:grid-cols-1 gap-12 items-start pt-24 md:pt-0">
           <div className="space-y-5 animate-fade-up">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I was born in Brazil but I have spent the last six years of my
+              life in Portugal. My entire professional journey before this point
+              focused on delivering customer service to clients. The time I
+              spent in customer service allowed me to develop my ability to
+              focus on details and create complete solutions and learn how to
+              interact with people effectively. The experience showed me how to
+              transform complicated requirements into practical solutions. I
+              selected Web Development as my first career because it enables me
+              to combine my interest in efficient solutions with my
+              technological expertise.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              🤝 PROBLEM SOLVING AND QUALITY ARE THE FOUNDATION OF MY WORK.
+            </p>
+            <p className="text-lg text-foreground/80 leading-relaxed">
+              I enrolled in Web Developer Bootcamp after my career transition to
+              discover my professional destiny of creating software that
+              delivers operational functionality and user-friendly interface and
+              stability.
+              I can work on your project using 3D tools to make it more responsive and dynamic.
+              I can turn your idea to a real digital experience.
             </p>
           </div>
           <div
