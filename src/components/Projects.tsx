@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: "Gallery Hub",
       description:
-        "ith a focus on user engagement and functionality, I crafted a captivating gallery-themed platform. Within this environment, individuals have the power to curate, edit, and showcase their collections and items, allowing them to showcase their work in a truly unique and personalized manner.",
+        "With a focus on user engagement and functionality, I crafted a captivating gallery-themed platform. Within this environment, individuals have the power to curate, edit, and showcase their collections and items, allowing them to showcase their work in a truly unique and personalized manner.",
       image: project2,
       tags: ["Next.js", "HTML", "MongoDB", "JavaScript", "Bootstrap"],
       github: "https://github.com/jodmadeira/GalleryHub",
