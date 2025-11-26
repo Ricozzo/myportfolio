@@ -43,7 +43,7 @@ const Navbar = () => {
             </p>
           </a>
           <a
-            href="https://drive.google.com/file/d/1FbCu0fKO8eXYv22d30h5iH2QAGnuuZln/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ro9nWREl0InKGugReCF5ufc7xAquWcAn/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
